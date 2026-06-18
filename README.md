@@ -5,9 +5,9 @@
 </a>
 
 <p align="center">
-  <a href="https://github.com/yogeeshr">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=860&lines=Building+safety-critical+AI%2FLLM+systems+at+frontier+scale.;LLM+guardrails+across+billions+of+daily+interactions.;30K%2B+TPS+distributed+systems+·+MCP+·+Agent+frameworks.;AI+that+is+safe%2C+beneficial%2C+and+aligned+with+human+values." alt="Typing SVG" />
-  </a>
+  <b>Building safety-critical AI/LLM systems at frontier scale.</b><br/>
+  <sub>LLM guardrails across billions of daily interactions &nbsp;·&nbsp; 30K+ TPS distributed systems &nbsp;·&nbsp; MCP &nbsp;·&nbsp; Agent frameworks</sub><br/>
+  <sub><i>AI that is safe, beneficial, and aligned with human values.</i></sub>
 </p>
 
 <p align="center">
@@ -130,11 +130,7 @@ timeline
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yogeeshr&hide_border=true&background=0d1117&stroke=2563eb&ring=2563eb&fire=1d4ed8&currStreakLabel=2563eb&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yogeeshr&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies" />
+  <img src="https://streak-stats.demolab.com?user=yogeeshr&hide_border=true&background=0d1117&stroke=2563eb&ring=2563eb&fire=1d4ed8&currStreakLabel=2563eb&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="streak" />
 </p>
 
 ---
