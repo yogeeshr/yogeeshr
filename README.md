@@ -39,8 +39,8 @@ Led end-to-end online safety detection that **gated the launch** of Muse Spark. 
 **🟦 Training-Data Filtering Pipeline**
 Built — ground up — a pre-training **data-sanitization** system for research scientists. Filters CSAM (image, novel video, MMS-bank), foreign-state narrative bias, and other policy violations. **~10M videos within a 6-hour SLA at <1% false-drop**, **fail-close** semantics, **100 parallel pipelines/day across 100 datasets (2TB each)** — zero delays to model launches. Coordinated 4 teams + 10 research stakeholders and shipped a companion E2E testing framework.
 
-**🟦 MCP Server Platform for CBRNE Evals**
-Designed and deployed a scalable **MCP server platform on AWS** — an extensible tool-augmented LLM framework where new tools plug in to evaluate model tool-use against **CBRNE** safety risks. Established a **repeatable, automated safety gate** for model releases.
+**🟦 MCP Server Platform for Model Evals**
+Designed and deployed a scalable **MCP server platform on AWS** — an extensible tool-augmented LLM framework where new tools plug in to evaluate model tool-use against **safety risks**. Established a **repeatable, automated safety gate** for model releases.
 
 ---
 
@@ -91,7 +91,7 @@ Designed and deployed a scalable **MCP server platform on AWS** — an extensibl
   <img src="https://img.shields.io/badge/Responsible%20AI-0866FF?style=flat-square" />
   <img src="https://img.shields.io/badge/Trust%20%26%20Safety-1d4ed8?style=flat-square" />
   <img src="https://img.shields.io/badge/Distributed%20Systems-2563eb?style=flat-square" />
-  <img src="https://img.shields.io/badge/CBRNE%20Evals-0a2540?style=flat-square" />
+  <img src="https://img.shields.io/badge/Model%20Evals-0a2540?style=flat-square" />
 </p>
 
 ---
@@ -106,7 +106,7 @@ timeline
     2017 : Amazon eCommerce Catalog — SDE II · 24K TPS re-architecture
     2022 : Amazon Alexa — Trust Monitoring · 2.6B events/day
     2023 : Amazon Alexa — LLM content-moderation owner · 30K TPS · Bar Raiser
-    2025 : Meta Superintelligence Labs — Online Safety · MCP · CBRNE evals
+    2025 : Meta Superintelligence Labs — Online Safety · MCP · model evals
 ```
 
 ---
