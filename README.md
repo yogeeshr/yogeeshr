@@ -46,6 +46,8 @@ Designed and deployed a scalable **MCP server platform on AWS** — an extensibl
 
 ### 📈 Impact at a glance
 
+<sub>*Highlights spanning 13 years across Meta, Amazon, InMobi, and SuccessFactors.*</sub>
+
 | Scale | Reliability | Efficiency | Leadership |
 |:--|:--|:--|:--|
 | **30K+ TPS** safety platforms | **2.6B events/day** @ **<200 ms** | **~50%** infra cost reduction | **20+ teams** aligned (PRFAQ → prod) |
