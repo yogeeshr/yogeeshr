@@ -34,10 +34,10 @@ Staff-level engineer with **13 years** building **safety-critical AI/LLM systems
 ### 🚀 What I'm building now — Meta Superintelligence Labs · *Staff SWE (Apr 2025 – Present)*
 
 **🟦 Online System Safety — Meta AI *Muse Spark* launch**
-Led end-to-end online safety detection that **gated the launch** of Muse Spark. Coordinated **20+ teams** (LLM Trust, Child Safety, Media Trust) to identify and mitigate every risk vector — **resolved 12 high-severity issues** and closed **all CSAM image/video entry points with zero project delay**, ramping fast on a novel **Rust** architecture. Held refusal rates and latency within target so guardrails never degraded UX.
+Led end-to-end online safety detection that **gated the launch** of Muse Spark. Coordinated **20+ teams** (LLM Trust, Child Safety, Media Trust) to identify and mitigate every risk vector — **resolved 12 high-severity issues** and closed **all CSAM image/video entry points with zero project delay**, ramping fast on a novel architecture and codebase. Held refusal rates and latency within target so guardrails never degraded UX.
 
 **🟦 Training-Data Filtering Pipeline**
-Built — ground up — a pre-training **data-sanitization** system for research scientists. Filters CSAM (image, novel video, MMS-bank), foreign-state narrative bias, and other policy violations. **~10M videos within a 6-hour SLA at <1% false-drop**, **fail-close** semantics, **100 parallel pipelines/day across 100 datasets (2TB each)** — zero delays to model launches. Coordinated 4 teams + 10 research stakeholders and shipped a companion E2E testing framework.
+Built — ground up — a pre-training **data-sanitization** system for research scientists. Filters CSAM (image, novel video, MMS-bank), foreign-state narrative bias, and other policy violations. Operates **at scale within tight SLAs**, with a **low false-drop rate** and **fail-close** semantics, running **many parallel pipelines across large datasets** — zero delays to model launches. Coordinated multiple teams and research stakeholders and shipped a companion E2E testing framework.
 
 **🟦 MCP Server Platform for Model Evals**
 Designed and deployed a scalable **MCP server platform on AWS** — an extensible tool-augmented LLM framework where new tools plug in to evaluate model tool-use against **safety risks**. Established a **repeatable, automated safety gate** for model releases.
@@ -50,7 +50,7 @@ Designed and deployed a scalable **MCP server platform on AWS** — an extensibl
 |:--|:--|:--|:--|
 | **30K+ TPS** safety platforms | **2.6B events/day** @ **<200 ms** | **~50%** infra cost reduction | **20+ teams** aligned (PRFAQ → prod) |
 | **Billions** of daily interactions | **<0.5%** policy-violating content | **$400K/yr** saved via ML automation | **Bar Raiser**, 350+ interviews |
-| **~10M videos / 6-hr SLA** filtered | **<1%** false-drop, fail-close | **10x** ingestion throughput | 5 interns → FTE engineers |
+| **Large-scale** data filtering | **Low** false-drop, fail-close | **10x** ingestion throughput | 5 interns → FTE engineers |
 
 ---
 
@@ -74,7 +74,6 @@ Designed and deployed a scalable **MCP server platform on AWS** — an extensibl
 <p>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Scala-DC322F?style=flat-square&logo=scala&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
