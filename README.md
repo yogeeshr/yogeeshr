@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/yogeeshr">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=820&lines=Building+safe%2C+scalable+AI+agents+at+frontier+scale.;MCP+servers+%E2%80%A2+Agent+frameworks+%E2%80%A2+Trust+%26+Safety;12%2B+years+architecting+distributed+systems+for+billions.;Changing+lives+for+the+better+%E2%80%94+through+technology." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=860&lines=Building+safety-critical+AI%2FLLM+systems+at+frontier+scale.;LLM+guardrails+across+billions+of+daily+interactions.;30K%2B+TPS+distributed+systems+·+MCP+·+Agent+frameworks.;AI+that+is+safe%2C+beneficial%2C+and+aligned+with+human+values." alt="Typing SVG" />
   </a>
 </p>
 
@@ -21,26 +21,26 @@
 
 ### 👋 About me
 
-I'm a **Staff Software Engineer at Meta Superintelligence Labs**, with **12+ years** building large-scale systems at the intersection of **AI, Trust & Safety, and distributed infrastructure**.
+Staff-level engineer with **13 years** building **safety-critical AI/LLM systems at scale**. Deep expertise in **Responsible AI**, backend, and distributed systems — with a focus on **Trust & Safety** platforms that deliver **LLM guardrails across billions of daily interactions**.
 
-- 🤖 Today I work on **MCP servers and agent frameworks** — building the next generation of AI systems *responsibly and at scale*.
-- 🛡️ Previously the **single-threaded owner of Amazon's LLM content-moderation platform** — thousands of TPS serving billions of users, with Responsible AI baked in (safety, privacy, policy compliance).
-- ⚡ Architected a **multi-year catalog re-architecture → 24K TPS at sub-100 ms latency**, cutting infrastructure cost by **~50%**.
-- 🎯 An Amazon **Bar Raiser** — helped make hiring decisions on **350+ candidates**, raising the bar on **250+** of them.
-- 🧭 I love taking **ambiguous, zero-to-one problems** from a blank page to a system that ships — operating fluidly across the macro architecture and the micro detail.
+- 🛡️ I architect **high-throughput distributed systems (30K+ TPS)** and embed **Safety, Security, Privacy, and Policy** directly into production AI products.
+- 🤝 I lead **cross-functional initiatives across 20+ teams**, taking ambiguous, zero-to-one problems from PRFAQ to production.
+- 🧭 I operate fluidly across **macro architecture and micro detail** — and I care deeply about building AI that is **safe, beneficial, and aligned with human values**.
 
-> *"I care deeply about building AI that is safe, scalable, and beneficial — and I bring that conviction to everything I ship."*
+> *"Changing lives for the better — through technology."*
 
 ---
 
-### 🚀 What I'm building now — Meta Superintelligence Labs
+### 🚀 What I'm building now — Meta Superintelligence Labs · *Staff SWE (Apr 2025 – Present)*
 
-```text
-focus      ░░  AI Agents · MCP servers · Agent frameworks
-domain     ░░  Trust & Safety · Responsible AI
-mandate    ░░  Build the next generation of AI systems — responsibly, at scale
-principles ░░  Move Fast · Long-Term Impact · Build Awesome Things · Live in the Future
-```
+**🟦 Online System Safety — Meta AI *Muse Spark* launch**
+Led end-to-end online safety detection that **gated the launch** of Muse Spark. Coordinated **20+ teams** (LLM Trust, Child Safety, Media Trust) to identify and mitigate every risk vector — **resolved 12 high-severity issues** and closed **all CSAM image/video entry points with zero project delay**, ramping fast on a novel **Rust** architecture. Held refusal rates and latency within target so guardrails never degraded UX.
+
+**🟦 Training-Data Filtering Pipeline**
+Built — ground up — a pre-training **data-sanitization** system for research scientists. Filters CSAM (image, novel video, MMS-bank), foreign-state narrative bias, and other policy violations. **~10M videos within a 6-hour SLA at <1% false-drop**, **fail-close** semantics, **100 parallel pipelines/day across 100 datasets (2TB each)** — zero delays to model launches. Coordinated 4 teams + 10 research stakeholders and shipped a companion E2E testing framework.
+
+**🟦 MCP Server Platform for CBRNE Evals**
+Designed and deployed a scalable **MCP server platform on AWS** — an extensible tool-augmented LLM framework where new tools plug in to evaluate model tool-use against **CBRNE** safety risks. Established a **repeatable, automated safety gate** for model releases.
 
 ---
 
@@ -48,8 +48,24 @@ principles ░░  Move Fast · Long-Term Impact · Build Awesome Things · Live
 
 | Scale | Reliability | Efficiency | Leadership |
 |:--|:--|:--|:--|
-| **Billions** of users served | **24K TPS** @ **<100 ms** p-latency | **~50%** infra cost reduction | **Bar Raiser**, 350+ interviews |
-| **1000s of TPS** moderation platform | Single-threaded owner, LLM safety | **$400K/yr** saved via ML automation | Mentor across all org levels |
+| **30K+ TPS** safety platforms | **2.6B events/day** @ **<200 ms** | **~50%** infra cost reduction | **20+ teams** aligned (PRFAQ → prod) |
+| **Billions** of daily interactions | **<0.5%** policy-violating content | **$400K/yr** saved via ML automation | **Bar Raiser**, 350+ interviews |
+| **~10M videos / 6-hr SLA** filtered | **<1%** false-drop, fail-close | **10x** ingestion throughput | 5 interns → FTE engineers |
+
+---
+
+### 💼 Selected work — Amazon (Oct 2017 – Apr 2025)
+
+**Alexa AI · Privacy & Customer Trust — Senior SDE**
+- **Single-threaded owner** of Alexa's end-to-end **LLM content-moderation** stack across all LLM experiences. Built guardrails — prompt/output overriding hotfixes + **pause-and-play** full-context detection — scaling to **30K TPS** and driving policy-violating content to **<0.5%** of traffic. Led 5 cross-functional teams.
+- **Alexa Trust Monitoring System** — envisioned and championed a company-wide platform from zero (authored PRFAQ, secured funding, aligned **20+ teams**). Fault-tolerant architecture at **30K TPS / 2.6B events/day** under **200 ms**, established as the **authority for Alexa's go/no-go launch decisions**.
+
+**eCommerce Catalog — SDE II**
+- **Global Item Processing re-architecture** — multi-year overhaul of a legacy distributed catalog → **24K TPS @ <100 ms**, **50%** less artificial traffic, **2x** infra cost savings.
+- **Automated data-quality + ML pipeline** — human-in-the-loop (35-person MTurk team) → automated SageMaker training/deploy → **10bps YoY** quality gain, **$400K/yr** saved.
+
+**InMobi — Senior SWE** · real-time ad-serving catalog ingestion (Spring Boot, Elasticsearch): 40 merchants, **10M+ products/day, 10x** throughput; Hive audience segmentation **4 days → 2 hours**.
+**SuccessFactors (SAP)** · binary expression-tree **permission resolver (ANTLR)** for fine-grained admin control — recognized by a Principal Engineer.
 
 ---
 
@@ -58,21 +74,24 @@ principles ░░  Move Fast · Long-Term Impact · Build Awesome Things · Live
 <p>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Scala-DC322F?style=flat-square&logo=scala&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bedrock-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/SageMaker-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" />
   <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
   <img src="https://img.shields.io/badge/Apache%20Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black" />
-  <img src="https://img.shields.io/badge/EMR-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Shell-121011?style=flat-square&logo=gnu-bash&logoColor=white" />
 </p>
 <p>
   <img src="https://img.shields.io/badge/AI%20Agents-1d4ed8?style=flat-square" />
   <img src="https://img.shields.io/badge/MCP%20Servers-2563eb?style=flat-square" />
-  <img src="https://img.shields.io/badge/Responsible%20AI-0a2540?style=flat-square" />
-  <img src="https://img.shields.io/badge/Trust%20%26%20Safety-0866FF?style=flat-square" />
-  <img src="https://img.shields.io/badge/Distributed%20Systems-1d4ed8?style=flat-square" />
-  <img src="https://img.shields.io/badge/Content%20Moderation-2563eb?style=flat-square" />
+  <img src="https://img.shields.io/badge/LLM%20Guardrails-0a2540?style=flat-square" />
+  <img src="https://img.shields.io/badge/Responsible%20AI-0866FF?style=flat-square" />
+  <img src="https://img.shields.io/badge/Trust%20%26%20Safety-1d4ed8?style=flat-square" />
+  <img src="https://img.shields.io/badge/Distributed%20Systems-2563eb?style=flat-square" />
+  <img src="https://img.shields.io/badge/CBRNE%20Evals-0a2540?style=flat-square" />
 </p>
 
 ---
@@ -81,22 +100,24 @@ principles ░░  Move Fast · Long-Term Impact · Build Awesome Things · Live
 
 ```mermaid
 timeline
-    title 12+ years of building at scale
-    2013 : SuccessFactors (SAP) — Talent suite · filed a SaaS patent
-    2015 : InMobi — Senior SWE · ad/commerce at scale · Rising Star award
-    2017 : Amazon India — SDE II · Open Box (Prime Day launch)
-    2019 : Amazon — Items & Offers · 24K TPS catalog re-architecture
-    2022 : Amazon Alexa — Trust & Safety monitoring at scale
-    2023 : Amazon — LLM content-moderation platform owner · Bar Raiser
-    2025 : Meta Superintelligence Labs — AI Agents · MCP · Trust & Safety
+    title 13 years of building safe systems at scale
+    2013 : SuccessFactors (SAP) — ANTLR permission resolver · Upgrade Center
+    2015 : InMobi — Senior SWE · real-time ad catalog · 10x ingestion
+    2017 : Amazon eCommerce Catalog — SDE II · 24K TPS re-architecture
+    2022 : Amazon Alexa — Trust Monitoring · 2.6B events/day
+    2023 : Amazon Alexa — LLM content-moderation owner · 30K TPS · Bar Raiser
+    2025 : Meta Superintelligence Labs — Online Safety · MCP · CBRNE evals
 ```
 
 ---
 
-### 📜 Patents & publications
+### 🏆 Achievements & leadership
 
-- 📄 **Patent:** *Recommending Updates to an Instance in a SaaS Model* — SuccessFactors / SAP.
-- 📰 **AWS Blog:** [Customer-defined partition keys for Amazon Timestream](https://aws.amazon.com/blogs/database/) — a design I contributed to, featured as a case study.
+- 🎯 **Amazon Bar Raiser** — **350+** hiring interviews, owning the bar-raising function across engineering orgs.
+- 🤖 **GuruConnect — company-wide hackathon winner** — AWS Bedrock AI assistant for on-call management, SOP retrieval, and DB querying.
+- 📰 **AWS Timestream blog author** — co-authored the official post introducing **customer-defined partition keys** (first production implementation of the feature).
+- 🔐 **Amazon Security Certifier** — security-certified **3 production systems/year** for customer-trust, privacy, and policy compliance.
+- 🌱 **Mentorship** — grew **5 interns into full-time engineers**; ongoing coaching on career growth, system design, and engineering excellence.
 
 ---
 
@@ -121,10 +142,11 @@ timeline
 
 <p>
   <a href="https://www.linkedin.com/in/yogeeshr/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:yogeesh.srkvs@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/yogeeshr"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-<sub>📍 Bellevue, WA · 🎓 First Class with Distinction (9.21/10), SJCE Mysore · 🗣️ English · Hindi · Kannada</sub>
+<sub>📍 Bellevue, WA · 🎓 B.E. Computer Science, SJCE Mysuru — 9.21/10 · 🛡️ Safety · Security · Privacy · Policy</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,50:1d4ed8,100:0a2540&height=120&section=footer" alt="footer" />
 
