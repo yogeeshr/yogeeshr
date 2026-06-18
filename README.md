@@ -34,7 +34,7 @@ Staff-level engineer with **13 years** building **safety-critical AI/LLM systems
 ### 🚀 What I'm building now — Meta Superintelligence Labs · *Staff SWE (Apr 2025 – Present)*
 
 **🟦 Online System Safety — Meta AI *Muse Spark* launch**
-Led end-to-end online safety detection that **gated the launch** of Muse Spark. Coordinated **20+ teams** (LLM Trust, Child Safety, Media Trust) to identify and mitigate every risk vector — **resolved 12 high-severity issues** and closed **all CSAM image/video entry points with zero project delay**, ramping fast on a novel architecture and codebase. Held refusal rates and latency within target so guardrails never degraded UX.
+Led end-to-end online safety detection that **gated the launch** of Muse Spark. Coordinated **many cross-functional teams** (LLM Trust, Child Safety, Media Trust) to identify and mitigate every risk vector — **resolved multiple high-severity issues** and closed **all CSAM image/video entry points with zero project delay**, ramping fast on a novel architecture and codebase. Held refusal rates and latency within target so guardrails never degraded UX.
 
 **🟦 Training-Data Filtering Pipeline**
 Built — ground up — a pre-training **data-sanitization** system for research scientists. Filters CSAM (image, novel video, MMS-bank), foreign-state narrative bias, and other policy violations. Operates **at scale within tight SLAs**, with a **low false-drop rate** and **fail-close** semantics, running **many parallel pipelines across large datasets** — zero delays to model launches. Coordinated multiple teams and research stakeholders and shipped a companion E2E testing framework.
