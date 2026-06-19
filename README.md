@@ -100,8 +100,8 @@ Designed and deployed a scalable **MCP server platform on AWS** — an extensibl
 ### 🧭 Career path
 
 ```mermaid
-timeline
-    title 13 years of building safe systems at scale
+Timeline
+    Overall: 13 years of building safe systems at scale
     2013 : SuccessFactors (SAP) — ANTLR permission resolver · Upgrade Center
     2015 : InMobi — Senior SWE · real-time ad catalog · 10x ingestion
     2017 : Amazon eCommerce Catalog — SDE II · 24K TPS re-architecture
